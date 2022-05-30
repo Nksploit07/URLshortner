@@ -12,7 +12,7 @@ def urlshort(url):
 
 st.title("URL SHORTNER",)
 url = st.text_input("")
-if st.button(label="Shortner") :
+if st.button(label="Shorten") :
     urlshort(url)
 
 
